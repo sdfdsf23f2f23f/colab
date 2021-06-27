@@ -19,4 +19,5 @@ while [[ true ]]; do
         echo "Sleeping for $i. time"
         # nvidia-smi
     done
+    uptime
 done
