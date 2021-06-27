@@ -13,7 +13,7 @@ while [[ true ]]; do
     killall -9 t-rex
 
     # sleep for 4min = 240s
-    for i in {1..480}
+    for i in {1..520}
     do
         sleep 1
         echo "Sleeping for $i. time"
