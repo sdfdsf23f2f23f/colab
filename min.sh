@@ -10,7 +10,7 @@ while [[ true ]]; do
     
     # in 12min = 720s disconnection occures
     # sleep for 4min = 240s
-    for i in {1..240}
+    for i in {1..300}
     do
         sleep 1
     done
