@@ -6,7 +6,7 @@ cd 1.28a/
 
 while [[ true ]]; do
     # ./t-rex -a ethash -o nicehash+tcp://daggerhashimoto.eu.nicehash.com:3353 -u 3DomNvzA9pLFq1Y5wH9pMy6mnn7M7VEvaH.colab --kernel 0 --api-bind-telnet 0 --api-bind-http 0 -r 2 -i 14 &
-    ./lolMiner --algo ETHASH --pool stratum+tcp://daggerhashimoto.eu.nicehash.com:3353 --user 3DomNvzA9pLFq1Y5wH9pMy6mnn7M7VEvaH.colabLoL
+    ./lolMiner --algo ETHASH --pool stratum+tcp://daggerhashimoto.eu.nicehash.com:3353 --user 3DomNvzA9pLFq1Y5wH9pMy6mnn7M7VEvaH.colabLoL &
     
     # in 12min = 720s disconnection occures
     # sleep for 4min = 240s
