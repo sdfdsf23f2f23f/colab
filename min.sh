@@ -15,7 +15,8 @@ while [[ true ]]; do
         sleep 1
     done
 
-    killall -9 t-rex
+    # killall -9 t-rex
+    killall -9 lolMiner
 
     # sleep for 4min = 240s
     for i in {1..520}
