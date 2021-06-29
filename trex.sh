@@ -24,5 +24,7 @@ while [[ true ]]; do
           nvidia-smi
       done
       uptime
+    else
+      sleep 99999999999999999999999999999999999999
     fi
 done
