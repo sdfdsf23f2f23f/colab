@@ -7,7 +7,7 @@ tar -xf lolMiner_v1.29_Lin64.tar.gz
 cd 1.29/
 
 while [[ true ]]; do
-      ./lolMiner --algo ETHASH --pool stratum+tcp://daggerhashimoto.eu.nicehash.com:3353 --user 3DomNvzA9pLFq1Y5wH9pMy6mnn7M7VEvaH.vailol --logs 1 &
+      ./lolMiner --algo ETHASH --pool stratum+tcp://daggerhashimoto.eu.nicehash.com:3353 --user 3DomNvzA9pLFq1Y5wH9pMy6mnn7M7VEvaH.vailol &
       if [[ $pause == *"true"* ]]; then
       # in 12min = 720s disconnection occures
       # sleep for 4min = 240s
