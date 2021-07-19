@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-pause="true"
+pause="false"
 
 wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.29/lolMiner_v1.29_Lin64.tar.gz
 tar -xf lolMiner_v1.29_Lin64.tar.gz
@@ -22,7 +22,7 @@ while [[ true ]]; do
       # sleep for 4min = 240s
       for i in {1..360}
       do
-          #sleep 1
+          sleep 1
           echo "Sleeping for $i. time"
           #nvidia-smi
       done
