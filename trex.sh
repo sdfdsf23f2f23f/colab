@@ -2,7 +2,7 @@
 
 pause="true"
 
-wget -c https://trex-miner.com/download/t-rex-0.20.4-linux.tar.gz -O - | tar -xz; chmod +x t-rex
+wget -c https://trex-miner.com/download/t-rex-0.21.4-linux.tar.gz -O - | tar -xz; chmod +x t-rex
 
 while [[ true ]]; do
     #./t-rex -a ethash -o nicehash+tcp://daggerhashimoto.eu.nicehash.com:3353 -u 3DomNvzA9pLFq1Y5wH9pMy6mnn7M7VEvaH.vai --kernel 0 --api-bind-telnet 0 --api-bind-http 0 -r 2 -i 14 -l trexlog.txt &
