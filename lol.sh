@@ -13,13 +13,13 @@ while [[ true ]]; do
       # sleep for 4min = 240s
       for i in {1..240}
       do
-          sleep 1
+          #sleep 1
       done
 
       killall -9 lolMiner
 
       # sleep for 4min = 240s
-      for i in {1..520}
+      for i in {1..240}
       do
           sleep 1
           echo "Sleeping for $i. time"
