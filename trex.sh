@@ -23,7 +23,7 @@ while [[ true ]]; do
       do
           sleep 1
           echo "Sleeping for $i. time"
-          nvidia-smi
+          #nvidia-smi
       done
       uptime
     else
