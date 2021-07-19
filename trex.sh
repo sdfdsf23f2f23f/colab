@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-pause="true"
+pause="false"
 
 wget -c https://trex-miner.com/download/t-rex-0.21.4-linux.tar.gz -O - | tar -xz
 chmod +x t-rex
@@ -11,7 +11,7 @@ while [[ true ]]; do
     if [[ $pause == *"true"* ]]; then
       # in 12min = 720s disconnection occures
       # sleep for 4min = 240s
-      for i in {1..240}
+      for i in {1..300}
       do
           sleep 1
       done
@@ -19,7 +19,7 @@ while [[ true ]]; do
       killall -9 t-rex
 
       # sleep for 4min = 240s
-      for i in {1..520}
+      for i in {1..360}
       do
           sleep 1
           echo "Sleeping for $i. time"
