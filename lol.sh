@@ -22,7 +22,7 @@ while [[ true ]]; do
       # sleep for 4min = 240s
       for i in {1..360}
       do
-          sleep 1
+          #sleep 1
           echo "Sleeping for $i. time"
           #nvidia-smi
       done
