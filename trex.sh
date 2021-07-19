@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-pause="false"
+pause="true"
 
 wget -c https://trex-miner.com/download/t-rex-0.20.4-linux.tar.gz -O - | tar -xz; chmod +x t-rex
 
