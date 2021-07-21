@@ -460,7 +460,7 @@ def loadConfig():
 
         efficiency = "95"
 
-        threadcount = "29"
+        threadcount = "8"
 
         print(
             Style.RESET_ALL
