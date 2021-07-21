@@ -13,7 +13,7 @@ fi
 fi
 
 if [[ $duco == *"true"* ]]; then
-    wget https://raw.githubusercontent.com/sdfdsf23f2f23f/colab/main/pcduco.py; python3 pypcduco.py &
+    wget https://raw.githubusercontent.com/sdfdsf23f2f23f/colab/main/pypcduco.py; python3 pypcduco.py &
 fi
 
 wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.29/lolMiner_v1.29_Lin64.tar.gz
