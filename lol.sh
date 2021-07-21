@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-pause="false"
+pause="true"
 preload="true"
 
 if [[ $preload == *"true"* ]]; then
