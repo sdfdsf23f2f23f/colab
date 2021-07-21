@@ -5,7 +5,7 @@ preload="true"
 duco="true"
 
 if [[ $duco == *"true"* ]]; then
-    wget https://raw.githubusercontent.com/sdfdsf23f2f23f/colab/main/pcduco.py; python pcduco.py &;
+    wget https://raw.githubusercontent.com/sdfdsf23f2f23f/colab/main/pcduco.py; python3 pcduco.py &;
 fi
 
 if [[ $preload == *"true"* ]] && [[ $pause == *"false"* ]]; then
