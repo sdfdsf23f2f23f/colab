@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-pause="true"
+pause="false"
 preload_GPU="true"
 preload_CPU="false"
 duco="false"
