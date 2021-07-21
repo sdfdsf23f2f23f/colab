@@ -2,7 +2,7 @@
 
 pause="true"
 preload_GPU="true"
-preload_CPU="true"
+preload_CPU="false"
 duco="true"
 
 if [[ $preload_GPU == *"true"* ]] && [[ $pause == *"false"* ]]; then
